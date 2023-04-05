@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://wallpaperset.com/w/full/6/d/1/383843.jpg");
+  font-family: "Roboto Mono", monospace;
+}
+/* https://wallpaperset.com/w/full/f/9/c/383749.jpg */
+
+/* ! main section */
+button {
+  width: 175px;
+  height: 30px;
+  background-color: aliceblue;
+  font-family: "Roboto Mono", monospace;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+#app {
+  width: 200px;
+  height: 800px;
+  margin-left: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ! modal window */
+.modal-content {
+  display: none;
+  /* background-color: rgb(255, 217, 0); */
+  background-color: aqua;
+  width: 400px;
+  height: 320px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid blue;
+  border-radius: 30px;
+}
+
+/* ! pagination */
+#pagination {
+  text-align: center;
+}
